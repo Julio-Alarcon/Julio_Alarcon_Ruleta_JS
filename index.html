@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coder house Primera pre entrega: Simulador interactivo</title>
+</head>
+
+<body class="background-gray-black">
+    <div class="card background-black">
+        <h1 class="text-white">Ruleta de la Suerte: Simulador interactivo </h1>
+    </div>
+    <div class="card background-gray">
+        <h1>
+            <img src="media/casino.png" alt="Imagen del casino">
+        </h1>
+        <h2>Introdución</h2>
+        <ul>
+            <li>Este es un programa que simula una mesa de ruleta en un casino, donde los jugadores pueden realizar apuestas en distintas categorías y ganar fichas en base a los resultados de la ruleta.</li>
+        </ul>
+        <h2>Comandos</h2>
+        <ul>
+            <li>En caso de haber cancelado el cuadro de diálogo, puede invocar la función <a class="text-green" onclick="start()"style="font-size: 35px">start()</a> desde la consola o bien pulsar sobre el botón 'START' para iniciar el juego.</li>
+            <li><button class="buttonStart" onclick="start()">START</button></li>
+            <li>En caso de que se quede sin fichas puede invocar la función <a class="text-green" onclick="dineroBanco()"style="font-size: 35px">dineroBanco()</a> la cual le otorgara 5000 fichas o bien pulsar sobre el botón '+5000'.</li>
+            <li><button class="buttonDinero" onclick="dineroBanco()">+5000</button></li>
+        </ul>
+        <h2>Notas</h2>
+        <ul>
+            <li>La apuesta minima es de 50 fichas.</li>
+            <li>Una vez realizada una apuesta, esta no puede ser retirada.</li>
+            <li>Lamentablemente, no es posible realizar apuestas por un número específico en este momento, dado que se requiere el uso de herramientas avanzadas tales como arrays y clases para hacer que la implementación sea más sencilla.</li>
+            <li>Las apuestas ganadoras reciben un pago de 2 a 1, excepto por las apuestas al tercio, que pagan 3 a 1.</li>
+            <li>El jugador puede elegir entre apostar por el color rojo, negro, par, impar, 1 a 18, 19 a 36 o uno de los tres tercios del tablero.</li>
+            <!--
+            ⠄⠄⠄⠄⣠⣴⣿⣿⣿⣷⣦⡠⣴⣶⣶⣶⣦⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+            ⠄⠄⠄⣴⣿⣿⣫⣭⣭⣭⣭⣥⢹⣟⣛⣛⣛⣃⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+            ⠄⣠⢸⣿⣿⣿⣿⢯⡓⢻⠿⠿⠷⡜⣯⠭⢽⠿⠯⠽⣀⠄⠄⠄⠄⠄⠄⠄⠄⠄
+            ⣼⣿⣾⣿⣿⣿⣥⣝⠂⠐⠈⢸⠿⢆⠱⠯⠄⠈⠸⣛⡒⠄⠄⠄⠄⠄⠄⠄⠄⠄
+            ⣿⣿⣿⣿⣿⣿⣿⣶⣶⣭⡭⢟⣲⣶⡿⠿⠿⠿⠿⠋⠄⠄⣴⠶⠶⠶⠶⠶⢶⡀
+            ⣿⣿⣿⣿⣿⢟⣛⠿⢿⣷⣾⣿⣿⣿⣿⣿⣿⣿⣷⡄⠄⢰⠇⠄⠄⠄⠄⠄⠈⣧
+            ⣿⣿⣿⣿⣷⡹⣭⣛⠳⠶⠬⠭⢭⣝⣛⣛⣛⣫⣭⡥⠄⠸⡄⣶⣶⣾⣿⣿⢇⡟
+            ⠿⣿⣿⣿⣿⣿⣦⣭⣛⣛⡛⠳⠶⠶⠶⣶⣶⣶⠶⠄⠄⠄⠙⠮⣽⣛⣫⡵⠊⠁
+            ⣍⡲⠮⣍⣙⣛⣛⡻⠿⠿⠿⠿⠿⠿⠿⠖⠂⠄⠄⠄⠄⠄⠄⠄⠄⣸⠄⠄⠄⠄
+            ⣿⣿⣿⣶⣦⣬⣭⣭⣭⣝⣭⣭⣭⣴⣷⣦⡀⠄⠄⠄⠄⠄⠄⠠⠤⠿⠦⠤⠄⠄
+            -->
+        </ul>
+    </div>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/variablesRuleta.js"></script>
+    <script src="js/funcionesRuleta.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
