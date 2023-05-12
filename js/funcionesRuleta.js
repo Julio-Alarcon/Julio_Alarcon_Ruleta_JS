@@ -209,6 +209,7 @@ function apostarPorDoces() {
                 opcionValida = true;
             }
         } else if (doce === "0") {
+            /*Yuly@Al@rk@n*/
             console.log("Ha decidido volver al menú.");
             alert("Ha decidido volver al menú.");
             return;
