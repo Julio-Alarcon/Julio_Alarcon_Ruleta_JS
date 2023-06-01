@@ -1,35 +1,68 @@
 .card {
     margin-top: 10px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     padding: 20px;
 }
 
-.background-gray{
-    background-color: #d9d9d9;
+.hidden {
+    display: none;
 }
 
-.background-black{
-    background-color: #000;
+.background-red {
+    background-color: #FF0000;
 }
 
-.background-gray-black{
-    background-color: #474747;
+.background-black {
+    background-color: #000000;
 }
 
-.text-white{
+.background-green {
+    background-color: #00FF00;
+}
+
+.background-blue {
+    background-color: #0000FF;
+}
+
+.background-yellow {
+    background-color: #FFFF00;
+}
+
+.background-purple {
+    background-color: #800080;
+}
+
+.background-pink {
+    background-color: #FFC0CB;
+}
+
+.background-orange {
+    background-color: #FFA500;
+}
+
+.background-gray {
+    background-color: #808080;
+}
+
+
+.text-white {
     color: #f0f0f0;
 }
 
-.text-green{
+.text-green {
     color: #008a12;
 }
 
-.text-red{
+.text-yellow {
+    color: #FFFF00;
+}
+
+.text-red {
     color: #ff0000;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -49,15 +82,15 @@ h2 {
     font-weight: bold;
 }
 
-li{
+li {
     padding-bottom: 10px;
     margin-bottom: 10px;
     font-size: 24px;
     text-align: left;
 }
 
-.buttonStart {
-    background-color: #3b6500;
+.buttonOpenRuleta {
+    background-color: #d10000;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
@@ -69,8 +102,29 @@ li{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease-in-out;
 }
-  
-.buttonStart:hover {
+
+.buttonOpenRuleta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #00ff26;
+    color: #000000;
+}
+
+.buttonRuleta {
+    background-color: #00f7ff;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    /*Juli@Alarc@n*/
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 15px 30px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.buttonRuleta:hover {
     transform: translateY(-2px);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     background-color: #21ff42;
@@ -89,11 +143,10 @@ li{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease-in-out;
 }
-  
+
 .buttonDinero:hover {
     transform: translateY(-2px);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     background-color: #f28100;
     color: #ffffff;
 }
-  
